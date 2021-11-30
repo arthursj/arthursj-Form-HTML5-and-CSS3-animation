@@ -28,4 +28,17 @@
               <div class="square" style="--i:4;"></div>
               <div class="container">
                 <div class="form">
+                    <h2>Login Form</h2>
+                    <form>
+                      <div class="inputBox">
+                        <input type="email" minlength="6" name="email" pattern="[a-Z]{30}" placeholder="Email" autocomplete="on" required>
+                      </div>
+                      <div class="inputBox">
+                        <input type="password" pattern="[0-9]{10}" maxlength="11" name="password" placeholder="Password"required autocomplete="off"  title="O límite max de senha é 10 caracteres e somente número">
+                      </div>
+                      <div class="inputBox">
+                        <input type="submit" value="Login" onclick="alert('Caso tenha preenchido corretamente, Seja Bem vindo !')">
+                      </div>
+                      <p class="forget">Forgot password ? <a href="#">Click Here</a></p>
+                      <p class="forget">Don't have an account ? <a href="#">Sign up</a></p>
         </body>
