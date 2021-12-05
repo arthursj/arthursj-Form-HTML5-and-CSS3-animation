@@ -170,3 +170,11 @@ section{
     margin-bottom: 20px;
     font-weight: 600;
   }
+  .forget{
+    margin-top: 5px;
+    color: #fff;
+  }
+  .forget a{
+    color: #fff;
+    font-weight: 600;
+  }
