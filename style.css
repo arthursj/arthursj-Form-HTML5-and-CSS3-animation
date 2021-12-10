@@ -217,10 +217,10 @@ section{
 
 .box input[type= "email"]:invalid,.box input[type = "password"]:invalid {
      font-family: Verdana;
-     color: red; /* Ao estar incorredo será feito assim */
+     color: red; 
    }
 
 .box input[type= "email"]:valid,.box input[type = "password"]:valid {
     font-family: Verdana;
-    color: green;  /* Ao estar correto será feito assim */
+    color: green;  
   }
